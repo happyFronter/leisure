@@ -1,0 +1,32 @@
+{
+  "name": "restful.js",
+  "homepage": "https://github.com/marmelab/restful.js",
+  "authors": [
+    "Robin Bressan <robin@buddey.net>"
+  ],
+  "description": "A pure JS client for interacting with server-side RESTful resources. Think Restangular without Angular.",
+  "main": "dist/restful.min.js",
+  "keywords": [
+    "rest",
+    "restful",
+    "api"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "bower_components",
+    "node_modules",
+    "test",
+    "src",
+    "package.json"
+  ],
+  "_release": "de49bef649",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "de49bef6496a52d8e579219281de7a1bd7a22d48"
+  },
+  "_source": "git://github.com/leopku/restful.js.git",
+  "_target": "master",
+  "_originalSource": "leopku/restful.js"
+}
