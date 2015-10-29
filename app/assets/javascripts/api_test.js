@@ -26,7 +26,6 @@ let _ = require('lodash');
 //   console.log(data);
 //   rivets.bind($('#loginView'), {auction: data})
 // }); 
-
 _.merge(dmall.postHeader,{'orderId':'1123344','payChannel':'WECHATPAY','type':'1','source':'1'});
 
 dmall.api.all('pay/payment')

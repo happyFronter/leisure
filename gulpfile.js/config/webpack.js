@@ -10,7 +10,8 @@ module.exports = function(env) {
 
   var webpackConfig = {
     entry: {
-      login: [jsSrc + 'login.js']
+      login: [jsSrc + 'login.js'],
+      canvas_demo: [jsSrc + 'canvas_demo.js']
     },
 
     output: {

@@ -11,15 +11,34 @@
   <meta name="apple-mobile-web-app-capable" content="yes"/>
   <meta name="apple-mobile-web-app-status-bar-style" content="black"/>
   <meta name="format-detection" content="telephone=no"/>
-  
+  <link rel="stylesheet" href="/assets/vendor/amazeui/dist/css/amazeui.css">
   <script src="assets/javascripts/shared.js"></script>
   <script src="/assets/vendor/jquery/dist/jquery.js"></script>
+  <style type="text/css">
+    /*声明 WebFont*/
+    @font-face {
+      font-family: 'pinghei';
+      src: url('/assets/vendor/fontawesome/fonts/fontawesome-webfont.eot');
+      src:
+        url('/assets/vendor/fontawesome/fonts/fontawesome-webfont.eot#font-spider') format('embedded-opentype'),
+        url('/assets/vendor/fontawesome/fonts/fontawesome-webfont.woff') format('woff'),
+        url('/assets/vendor/fontawesome/fonts/fontawesome-webfont.ttf') format('truetype'),
+        url('/assets/vendor/fontawesome/fonts/fontawesome-webfont.svg') format('svg');
+      font-weight: normal;
+      font-style: normal;
+    }
+
+    /*使用选择器指定字体*/
+    #loginView {
+        font-family: 'pinghei';
+    }
+  </style>
 
 </head>
 <body>
 <div id="loginView">
   <section id="auction">
-    <h3>{ auction.userId }</h3>
+    <h3>字体测试{ auction.userId }</h3>
     <p>Current bid: { auction.id }</p>
 
     <aside rv-text="auction.title | lt 120">
@@ -27,6 +46,7 @@
     </aside>
   </section>
 </div>
+
 
 <script src="assets/javascripts/login.js"></script>
 </body>

@@ -1,0 +1,20 @@
+{#
+Swig Templating!
+Docs: http://paularmstrong.github.io/swig/docs/
+#}
+
+<!-- {% extends 'layouts/application.html' %} -->
+{% block head %}
+{% endblock %}
+{% block title %}canvas_demo{% endblock %}
+<!-- {% block header-title %}登录{% endblock %} -->
+<!-- {% block bar-right %}{% endblock %} -->
+{% block content %}
+<div id="canvas_demo">
+  <canvas id="myCanvas"></canvas>
+</div>
+{% endblock %}
+{% block footer %}{% endblock %}
+{% block javascript %}
+<script src="/assets/javascripts/canvas_demo.js"></script>
+{% endblock %}

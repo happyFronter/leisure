@@ -1,6 +1,7 @@
 let restful = require('restful');
 // let domain = env === 'production' ? 'appapi.dmall.com' : 'testappapi.dmall.com'
 let domain = window.location.host;
+let _ = require('lodash');
 
 // console.log(window.location)
 
